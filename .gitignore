@@ -1,3 +1,0 @@
- *.csv
- datasets/*.*
- metastore_db/*.*
