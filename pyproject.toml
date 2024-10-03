@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "iceberg-meetup-101"
+version = "0.1.0"
+description = ""
+authors = ["saroj <saroj.dongol@ir.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pyspark = "^3.5.3"
+ipykernel = "^6.29.5"
+fire = "^0.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
